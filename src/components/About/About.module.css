@@ -1,0 +1,51 @@
+.container{
+    height: 639px;
+    border-radius: 15px;
+    background: rgba(12, 12, 12, 0.60);
+    margin: 0 115px;
+}
+
+.title{
+    color: #FFF;
+
+    font-family: Outfit;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    padding-top: 55px;
+    padding-left: 73px
+}
+
+.heroIg{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 43px;
+    margin-top: 10px;
+    border-radius: 50px;
+    opacity: 1;
+}
+
+.content{
+    display: flex;
+    color: #FFF;
+}
+
+.aboutSection{
+    z-index: 1;
+    margin: 0 15px;
+    text-align: justify;
+    font-family: Outfit;
+}
+
+.aboutDIV{
+    p{
+        margin-top: 5px;
+    }
+    h3{
+        margin-top: 5px;
+    }
+}

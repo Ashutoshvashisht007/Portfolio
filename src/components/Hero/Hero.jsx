@@ -14,7 +14,7 @@ export const Hero = () => {
         <a className={styles.contactBtn} href='mailto:ashutoshanandsharma@gmail.com'>Contact Me</a>
     </div>
     <img className={styles.heroIg} src={getImageUrl("hero/ashutosh.jpg")} alt = "Ashutosh"/>
-    <div className={styles.topBar}></div>
-    <div className={styles.bottomBar}></div>
+    <div className={styles.topBlur}></div>
+    <div className={styles.bottomBlur}></div>
   </section>
 }
