@@ -4,22 +4,44 @@ import { getImageUrl } from '../../utils'
 
 export const About = () => {
   return (
-    <div className={styles.container}>
-        <p className={styles.title}>About</p>
+    <section className={styles.container} id='about'>
+        <h2 className={styles.title}>About</h2>
         <div className={styles.content}>
           <img className={styles.heroIg} src={getImageUrl("hero/about.jpg")} alt = "Ashutosh"/>
-          <div className={styles.aboutSection}>
-            <div className={styles.aboutDIV}>
-              <h3>FrontEnd</h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, odio impedit tempore quas expedita facilis similique vel nobis inventore? Doloremque necessitatibus porro consequuntur, provident repudiandae amet sapiente id consequatur quia.</p>
+          <ul className={styles.aboutItems}>
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Frontend Developer</h3>
+              <p>
+                I'm a frontend developer with experience in building responsive
+                and optimized sites
+              </p>
             </div>
-            <div className={styles.aboutDIV}><h3>FrontEnd</h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, odio impedit tempore quas expedita facilis similique vel nobis inventore? Doloremque necessitatibus porro consequuntur, provident repudiandae amet sapiente id consequatur quia.</p></div>
-            <div className={styles.aboutDIV}><h3>FrontEnd</h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, odio impedit tempore quas expedita facilis similique vel nobis inventore? Doloremque necessitatibus porro consequuntur, provident repudiandae amet sapiente id consequatur quia.</p></div>
-          </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Backend Developer</h3>
+              <p>
+                I have experience developing fast and optimised back-end systems
+                and APIs
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <div className={styles.aboutItemText}>
+              <h3>UI Designer</h3>
+              <p>
+                I have designed multiple landing pages and have created design
+                systems as well
+              </p>
+            </div>
+          </li>
+        </ul>
         </div>
-    </div>
+    </section>
 
   )
 }
