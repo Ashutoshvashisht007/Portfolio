@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Video Streaming Web Application",
+        "imageSrc": "projects/project.png",
+        "description": "I've replicated the user interface and functionalities of YouTube while incorporating my own backend infrastructure using MERN stack.",
+        "skills": ["React","Node","Express","MongoDB"],
+        "demo": "https://youtubebackend.onrender.com/",
+        "source": "https://github.com/Ashutoshvashisht007/Video-Streaming-Web-app"
+    },
+    {
+        "title": "Box-Office Web Application",
+        "imageSrc": "projects/project.png",
+        "description": "I've created a website where user can easily all the information about the movies, web-series or celeberities.",
+        "skills": ["React","CSS"],
+        "demo": "https://ashutoshvashisht007.github.io/Box-Office-App./#/",
+        "source": "https://github.com/Ashutoshvashisht007/Box-Office-App."
+    },
+    {
+        "title": "Random Text Generator",
+        "imageSrc": "projects/project.png",
+        "description": "A web application where user can generate random texts",
+        "skills": ["HTML","CSS","JavaScript"],
+        "demo": "https://randometextgeneratot070.netlify.app/",
+        "source": "https://github.com/Ashutoshvashisht007/Random_text_generator"
+    }
+]
